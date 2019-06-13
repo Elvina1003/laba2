@@ -1,0 +1,676 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carcas {
+    width: 1220px;
+    background: #444444;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 1105px;
+    width: 1220px;
+    background: #444444;
+
+}
+
+.header-word {
+    width: 1220px;
+    height: 98px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventia {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Bodoni MT Black";
+    padding: 0 4px;
+    font-size: 39px;
+    display: flex;
+}
+
+.header-temn {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    margin: 0 18px;
+}
+
+.header-temn > div {
+    color: #ffffff;
+    padding: 0 11px;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.header-temn > div {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.header-temn > div:hover {
+    color: silver;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 18px;
+}
+
+.blok {
+    width: 1220px;
+    height: 1008px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.blok-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.blok-left > div {
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+}
+
+.title {
+    height: 26px;
+    padding: 26px 12px;
+    font-family: "Segoe UI";
+    font-size: 26px;
+}
+
+.title-god {
+    height: 100px;
+    font-size: 98px;
+    font-weight: bold;
+    font-family: Tahoma;
+    padding: 0 12px;
+}
+
+.title-aseees {
+    height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.title-prog {
+    height: 10px;
+    font-size: 11px;
+    font-family: Arial;
+    padding: 10px 0;
+}
+
+.title-avail {
+    height: 20px;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.square {
+    width: 625px;
+    height: 790px;
+    background: #a162ff;
+    align-items: center;
+}
+
+.small {
+    width: 625px;
+    height: 18px;
+    background: #3f3f3f;
+    box-shadow: 0 4px 4px rgba(31, 31, 31, 0.79),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.square-osn {
+    width: 625px;
+    height: 486px;
+    background: #303030;
+}
+
+.grad {
+    width: 625px;
+    height: 252px;
+    background: #d42531; /* Old browsers */
+    background: -moz-linear-gradient(left, #d42531 1%, #f2a241 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #d42531 1%, #f2a241 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #d42531 1%, #f2a241 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d42531', endColorstr='#f2a241', GradientType=1); /* IE6-9 */;
+}
+
+.white {
+    width: 626px;
+    height: 52px;
+    background: #ffffff;
+}
+
+.Chislo {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    align-items: center;
+    height: 209px;
+    font-family: Verdana;
+}
+
+.cl1 {
+    margin: 0 0 0 75px;
+}
+
+.Num {
+    font-size: 36px;
+    width: 92px;
+}
+
+.Days {
+    font-size: 14px;
+    margin: 8px 0 0 14px;
+    font-family: Arial;
+}
+
+.cl2 {
+    margin: 0 0 0 56px;
+}
+
+.Numb {
+    font-size: 36px;
+    width: 57px;
+}
+
+.Hours {
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    font-family: Arial;
+}
+
+.cl3 {
+    margin: 0 0 0 65px;
+}
+
+.Numbe {
+    font-size: 36px;
+    width: 67px;
+}
+
+.Minutes {
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    font-family: Arial;
+}
+
+.cl4 {
+    margin: 0 0 0 60px;
+}
+
+.Number {
+    font-size: 36px;
+    width: 70px;
+}
+
+.Seconds {
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    font-family: Arial;
+}
+
+.dive-center {
+    margin: 0 0 0 6px;
+}
+
+.Znachok {
+    height: 28px;
+    width: 509px;
+    display: flex;
+    justify-items: center;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 94px;
+}
+
+.December {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 12px;
+    font-weight: bold;
+    font-family: "Arial Unicode MS";
+    font-size: 20px;
+}
+
+.Delenie {
+    height: 232px;
+    width: 625px;
+    display: flex;
+    justify-items: center;
+    background: repeating-linear-gradient(
+            -55deg,
+            #303030,
+            #2d2d2d 10px,
+            #2d2d2d 10px,
+            #2d2d2d 2px);
+}
+
+.Delenie-left {
+    height: 232px;
+    width: 292px;
+    display: flex;
+    align-items: center;
+}
+
+.Krug1 {
+    height: 62px;
+    width: 62px;
+    background: #444444;
+    border-radius: 50%;
+    margin: 111px 0 0 61px;
+}
+
+.Delenie-right {
+    width: 334px;
+    height: 232px;
+    display: flex;
+    align-items: center;
+}
+
+.Krug2 {
+    height: 62px;
+    width: 62px;
+    background: #444444;
+    border-radius: 50%;
+    margin: 111px 0 0 58px;
+}
+
+.line {
+    margin: 86px 0 0 0;
+}
+
+.liniya {
+    height: 127px;
+    border-left: 3px dotted #4d4d4d;
+}
+
+.img3 {
+    margin: 12px;
+}
+
+.img4 {
+    margin: 10px;
+}
+
+.left {
+    margin: 116px 0 0 14px;
+}
+
+.seats {
+    font-weight: bold;
+    font-family: "Meiryo UI";
+    font-size: 22px;
+}
+
+.people {
+    font-size: 15px;
+    font-family: Arimo;
+    margin: 10px 0 0 0;
+}
+
+.right {
+    margin: 116px 0 0 12px;
+}
+
+.Speaker {
+    font-weight: bold;
+    font-family: "Meiryo UI";
+    font-size: 22px;
+}
+
+.Profe {
+    font-size: 15px;
+    font-family: Arimo;
+    width: 116px;
+    margin: 10px 0 0 0;
+}
+
+.Sponsor {
+    height: 56px;
+    width: 198px;
+    margin: 0 0 0 213px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arimo;
+}
+
+.img5 {
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 52px 0 14px 119px;
+}
+
+.img6 {
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 138px;;
+}
+
+.south {
+    width: 295px;
+    font-size: 16px;
+    color: black;
+    margin: 0 13px;
+    font-family: "Arial Unicode MS";
+}
+
+.content {
+    width: 1220px;
+    background: #ffffff;
+    height: 582px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.prrks {
+    height: 450px;
+    width: 1200px;
+    background: #252c3a;
+    transform: translateX(18px) translateY(5px);
+}
+
+.ramka {
+    border-style: solid;
+    border-color: #505050;
+    border-width: thin;
+    height: 434px;
+    width: 712px;
+    transform: translateY(-20px);
+}
+
+.explore {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 214px;
+    padding: 53px 0 0;
+}
+
+.red span {
+    color: #ff512f;
+    margin: 0 12px;
+}
+
+.red {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 214px;
+    padding: 28px 0;
+}
+
+.lorem {
+    font-size: 14px;
+    color: #8e8e8e;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 54px;
+    padding: 74px 0 0;
+}
+
+.dolor {
+    font-family: Verdana;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    color: #8e8e8e;
+    margin: 0 54px;
+    padding: 11px 0 0;
+}
+
+.cillum {
+    font-family: Verdana;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    color: #8e8e8e;
+    margin: 0 54px;
+    padding: 11px 0 0;
+}
+
+.arrow {
+    color: #ff5938;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 0 0;
+    margin: 0 36px;
+    font-size: 14px;
+    font-family: Arimo;
+    cursor: pointer;
+}
+
+.Krug3 {
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin: 0 12px;
+    border-color: #ff5938;
+    border-style: solid;
+}
+
+.img7 {
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.Siniy-blok {
+    width: 1220px;
+    background: #281e9e;
+    height: 632px;
+    color: #ffffff;
+}
+
+.siniy-nad1 {
+    font-size: 48px;
+    font-family: "Courier New";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 151px;
+    padding: 133px 0 0;
+}
+
+.siniy-nad2 {
+    font-size: 16px;
+    font-family: "Arial Unicode MS";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 36px;
+    padding: 56px 0 0;
+}
+
+.siniy-nad3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 105px;
+    padding: 10px 0 0;
+    font-size: 16px;
+    font-family: "Arial Unicode MS";
+}
+
+.siniy-nad4 {
+    margin: 0 29px;
+    font-size: 16px;
+    font-family: "Arial Unicode MS";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 31px 0 0;
+}
+
+.siniy-nad5 {
+    margin: 9px 0 0 500px;
+    font-size: 16px;
+    font-family: "Arial Unicode MS";
+}
+
+.Download-btn {
+    width: 371px;
+    height: 73px;
+    color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(255, 255, 255, .9);
+    text-align: center;
+    display: flex;
+    margin: 75px 0 0 391px;
+}
+
+.Down-btn2 {
+    width: 371px;
+    height: 73px;
+    color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(255, 255, 255, .9);
+    text-align: center;
+    display: flex;
+    margin: 0 0 0 399px;
+    transform: translateY(-67px);
+}
+
+.btn {
+    font-size: 16px;
+    font-family: Bahnschrift;
+    margin: 30px 0 0 75px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 354px;
+    width: 1220px;
+    background: #313131;
+}
+
+.img8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 444px;
+    padding: 45px 0 0;
+}
+
+.eventia2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Bodoni MT Black";
+    padding: 0 4px;
+    font-size: 39px;
+    display: flex;
+}
+.vini {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 472px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Bookman Old Style";
+    padding: 12px 0 0;
+}
+
+form {
+    position: relative;
+    height: 44px;
+    width: 280px;
+    background: #4a4a4a;
+    transform: translateY(17px);
+    margin: 0 400px;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+input {
+    width: 192px;
+    height: 44px;
+    padding-left: 15px;
+    color: #969595;
+}
+
+button {
+    height: 44px;
+    width: 69px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: #d42531; /* Old browsers */
+    background: -moz-linear-gradient(left, #d42531 1%, #f2a241 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #d42531 1%, #f2a241 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #d42531 1%, #f2a241 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d42531', endColorstr='#f2a241', GradientType=1); /* IE6-9 */;
+    color: #ffffff;
+}
+
+.img9 {
+    margin: 50px 315px;
+    width: 516px;
+    cursor: pointer;
+}
+
+.search-btn {
+    width: 1220px;
+    height: 53px;
+    background: #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 1px 15px 5px;
+rgba(31, 31, 31, 0.79), 0 0 20px rgba(0, 0, 0, 0.5) inset;
+}
+.sear-them{
+    font-size: 11px;
+    color: #616161;
+    margin: 0 523px;
+}
+.img10{
+    cursor: pointer;
+}
